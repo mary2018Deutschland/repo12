@@ -1,0 +1,273 @@
+    1  git -h
+    2  git -v
+    3  шшгапрпа
+    4  jgdjskj
+    5  yttew
+    6  clear
+    7  git config --global user.name "Maryna Sychova"
+    8  clear
+    9  git config --user.name --replace-all "Maryna Sychova"
+   10  git config --user.name --replace-all
+   11  clear
+   12  git config --global user.name "Maryna Sychova"
+   13  git config --global user.name
+   14  git config --global user.email mary2018@ukr.net
+   15  git config --global user.name
+   16  git config --global user.email
+   17  clear
+   18  cd
+   19  ls
+   20  
+   21  scp -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   22  ssh-keygen
+   23  cat  /c/Users/ICH/.ssh/id_rsa.pub
+   24  cd /c/Users/ICH/.ssh/id_rsa
+   25  cd /c/Users/ICH/.ssh/
+   26  ls
+   27  cat
+   28  cat id_rsa
+   29  ssh -i /c/Users/ICH/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   30  ssh -i /c/Users/ICH/.ssh/ ec2-user@linux.itcareerhub.de
+   31  ssh -i /c/Users/ICH/.ssh/id_rsa.pub ec2-user@linux.itcareerhub.de
+   32  ssh -i /c/Users/ICH/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   33  ls -a
+   34  tree
+   35  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   36  pwd
+   37  ls
+   38  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   39  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   40  ssh --help
+   41  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   42  tree
+   43  env
+   44  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   45  cd /opt/150424-wdm
+   46  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   47  vi
+   48  ps --htlp
+   49  ps --help
+   50  ps -u
+   51  ps -u root
+   52  ps uax
+   53  cd /opt
+   54  cd /
+   55  ls
+   56  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   57  pwd
+   58  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   59  pwd
+   60  cd ~/.ssh/
+   61  cat id_rsa.pub
+   62  git config --global user.name "mary2018Deutschland
+   63  git config --global user.email "mary2018@ukr.net"
+   64  git config --global user.name "mary2018Deutschland"
+   65  git config --global user.email "mary2018@ukr.net"
+   66  pwd
+   67  git config --global user.name "mary2018Deutschland
+   68  git config --global user.email "mary2018@ukr.net"
+   69  git config --global user.name "mary2018Deutschland"
+   70  git config --global user.email "mary2018@ukr.net"
+   71  pwd
+   72  A
+   73  :wq
+   74  git config --global user.name "mary2018Deuyschland"
+   75  git config --global user.email "mary2018@ukr.net"
+   76  git config --global user.name "mary2018Deutschland"
+   77  git config --list --show-origin
+   78  git init
+   79  pwd
+   80  ls -a
+   81  ls -a .git
+   82  git clone https://github.com/mary2018Deutschland/quelleDesLebens.git
+   83  git add file1
+   84  pwd
+   85  touch file1
+   86  ls
+   87  cd quelleDesLebens
+   88  touch file1
+   89  git add file1
+   90  ls -a
+   91  git commit -m "adding files"
+   92  git branch
+   93  git branch -M main
+   94  git push -u origin
+   95  pwd
+   96  cd /c/Users/ICH/.ssh
+   97  git init
+   98  git init
+   99  mkdir first_repo
+  100  cd first_repo
+  101  git init
+  102  git config --list --global
+  103  echo "# test" >> README.md
+  104  cat README.md
+  105  git status
+  106  git add README.md
+  107  git commit -m "first commit"
+  108  git branch -M main
+  109  eval `ssh-agent -s`
+  110  ssh-add C:Users\ICH\.ssh
+  111  ssh-add C:Users/ICH/.ssh
+  112  sh-add `[3
+  113  ssh-add ~/.ssh/id_rsa.PUB
+  114  ssh-add ~/.ssh/id_rsa.pub
+  115  ssh-add ~/.ssh/id_rsa
+  116  ls -ssh
+  117  ls -a ~/.ssh
+  118  git remote add origin git@github:mary2018Deutschland/first_repo.git
+  119  git push -u origin main
+  120  git remote -v
+  121  ls -a
+  122  ls ~/.ssh
+  123  ping github.com
+  124  git remote add git@github.com:mary2018Deutschland/quelleDesLebens.git
+  125  git remote add origin  git@github.com:mary2018Deutschland/quelleDesLebens.git
+  126  git status 
+  127  git clean
+  128  git log
+  129  git remote add origin  https://github.com/mary2018Deutschland/quelleDesLebens.git
+  130  error: remote origin already exists.
+  131  error: remote origin already exists.
+  132  git remote set-url origin https://github.com/mary2018Deutschland/quelleDesLebens.git
+  133  git push
+  134  git push --set-upstream origin main
+  135  ls -a ~/
+  136  git branch test
+  137  git checkout test
+  138  git checkout main
+  139  git branch -d test
+  140  #!/bin/bash
+  141  DATE='date'+%d-%m-%y''
+  142  for i in {1..5}; do date+'%H-%M-%S' > file-$i.txt; sleep 5; done
+  143  mkdir -p $DATE
+  144  cp file*.txt $DATE
+  145  for file in $DATE/*; do cat $file; done
+  146  [200~
+  147  DATE=$(date '+%d-%m-%y')
+  148  echo $DATE
+  149  for i in {1..5}; do date +'%H-%M-%S' > file-$i.txt; echo $i; sleep 5; done
+  150  mkdir -p $DATE
+  151  cp file*.txt $DATE
+  152  for file in $DATE/*; do cat $file; done
+  153  mkdir ~/git-branch
+  154  cd ~/
+  155  ls -a
+  156  git init ~/git-branch
+  157  cd ~/git-branch/
+  158  git remote add origin https://github.com/mary2018Deutschland/git-branch.git
+  159  git checkout -b gitignore
+  160  curl -O https://raw.githubusercontent.com/aliaskov/bashscripts/master/.gitignore
+  161  git add .gitignore
+  162  git commit -m "ADD file"
+  163  git push -u origin gitignore
+  164  pwd
+  165  cd ~/
+  166  mkdir repo2
+  167  cd repo2
+  168  git init
+  169  git remove add origin https://github.com/mary2018Deutschland/repo2.git
+  170  git remote add origin https://github.com/mary2018Deutschland/repo2.git
+  171  curl -O https://raw.githubusercontent.com/aliaskov/bashscripts/master/1000HelloWorld.sh
+  172  git brabch -M main
+  173  git branch -M main
+  174  git add 1000HelloWorld.sh
+  175  git commit -m "ADD 1000HelloWorld.sh.file"
+  176  git push -u origin main
+  177  git checkouy -b file-delete
+  178  git checkout -b file-delete
+  179  rm 1000HelloWorld.sh
+  180  git add 1000HelloWorld.sh
+  181  git commit -m "Delete 1000HelloWorld.sh file"
+  182  git push -u origin file-delete
+  183  git status
+  184  git log
+  185  vi /tmp/file.txt
+  186  cat /tmp
+  187  ls -ls /tmp
+  188  rm -rf /tmp/file.txt
+  189  vi /tmp/file.txt
+  190  /tmp/file.txt
+  191  cat /tmp/file.txt
+  192  rm -rf /tmp/file.txt
+  193  vi /tmp/file.txt
+  194  df -h | head -n3 >> /tmp/file.txt 
+  195  chmod g+wx /tmp/file.txt 
+  196  chmod o-rwx /tmp/file.txt 
+  197  touch /tmp/myfirstbushscript.sh
+  198  chmod +x /tmp/myfirstbushscript.sh 
+  199  export USER="MARYNA"
+  200  vi /tmp/myfirstbushscript.sh 
+  201  /tmp/myfirstbushscript.sh 
+  202  cat /tmp/myfirstbushscript.sh >> /tmp/file.txt 
+  203  history >> /tmp/file.txt 
+  204  export_file /tmp/file.txt 
+  205  export_file/tmp/file.txt 
+  206  which /tmp/file.txt 
+  207  cd /tmp
+  208  pwd
+  209  ls -a
+  210  pwd
+  211  cd /
+  212  ls
+  213  cp tmp/file.txt c;\
+  214  pwd -W
+  215  ls tmp/file.txt 
+  216  cd pwd
+  217  cd tmp/
+  218  ls
+  219  pwd -W
+  220  pwd
+  221  mkdir /tmp/git_intro
+  222  git init
+  223  cd /tmp/git_intrp
+  224  cd /tmp/git_intro/
+  225  curl -O https://pxhere.com/ru/photo/1115408 /tmp/git_intro/master
+  226  ls
+  227  pwd
+  228  cat 1115408
+  229  curl -O https://pxhere.com/ru/photo/1115408 /tmp/git_intro/master
+  230  curl -O https://img.freepik.com/free-photo/beautiful-scenery-green-valley-near-alp-mountains-austria-cloudy-sky_181624-6979.jpg?t=st=1718313388~exp=1718316988~hmac=cd0cc906b3862f6e8eb73c68f01f871e2725790b8c5104deaa7c78724ad44574&w=900 /tmp/git_intro
+  231  git init
+  232  git add .
+  233  git add beautiful-scenery-green-valley-near-alp-mountains-austria-cloudy-sky_181624-6979.jpg?t=st=1718313388~exp=1718316988~hmac=cd0cc906b3862f6e8eb73c68f01f871e2725790b8c5104deaa7c78724ad44574
+  234  git commit -M main
+  235  git commit -m main
+  236  git remote add origin git@github.com: mary2018Deutschland/git_intragit 
+  237  git status
+  238  ls
+  239  git status
+  240  ls -a
+  241  git add beautiful-scenery-green-valley-near-alp-mountains-austria-cloudy-sky_181624-6979.jpg 
+  242  git status
+  243  git log
+  244  git push
+  245  cat ~/.gitconfig
+  246  git remote add origin  git@github.com: mary2018Deutschland/git_intro
+  247  git remote add origin https://github.com/mary2018Deutschland/git_intro.git
+  248  git push -u origin main
+  249  git push
+  250  history
+  251  history | grep ssh
+  252  ssh -i /c/Users/ICH/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+  253  cd ~
+  254  git clone https://github.com/mary2018Deutschland/repo12.git
+  255  cd repo12
+  256  git log
+  257  git status
+  258  git checkout -b feature
+  259  ls
+  260  echo "Project 12" > README.md
+  261  echo "*.exe" > .gitignore
+  262  ls -la
+  263  git add README.md
+  264  git add .gitignore
+  265  git status
+  266  git commit -m "add files"
+  267  git push -u origin feature
+  268  git commit --amend
+  269  git push --force origin feature
+  270  git checkout main
+  271  git merge feature
+  272  git push -u origin main
+  273  history > history.txt
